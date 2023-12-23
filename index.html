@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO Home Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <nav class="navbar">
+        <!-- <h1 class="logo">ECO</h1> -->
+        <img src="images/logo.png" alt="" class="logo">
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+        <img src="/images/icons8-menu-100.png" alt="" class="menu-btn">
+        
+    </nav>
+    <div class="picture-divider"></div>
+    <header>
+        <div class="header-content">
+            <h2><b class="span">Eco</b> construction</h2>
+            <div class="line"></div>
+            <h1>Quality <b class="span">You Can Count On</b></h1>
+            <a href="aboutus.html" class="ctn"> Learn More</a>
+        </div>
+    </header>
+
+
+<!-- ==2nd Slide== -->
+
+<div class="picture-divider"></div>
+<section class="second-slide">
+    <div class="home-title">
+        <h1>We Provide The <b class="span">Best Services</b></h1>
+        <div class="line"></div>
+    </div>
+
+
+<div class="home-cont">
+        <div class="home-card">
+            <img src="images/consult.jpg" alt="">
+            <div class="card-content">
+                <h2>Consultancy</h2>
+                <p>For customers who want to have detailed costing, planning and guidance of their project, our consultant will help you avoid surprises such as extra costs, delays and other problems.</p>
+            </div>
+        </div>
+
+        <div class="home-card">
+            <img src="images/design.jpg" alt="">
+            <div class="card-content">
+                <h2>Design</h2>
+                <p>We offers a complete design sevice for residential and commercial spaces, from the development of architectural design through the final project of interior design and installation.</p>
+            </div>
+        </div>
+
+        <div class="home-card">
+            <img src="images/management.jpg" alt="">
+            <div class="card-content">
+                <h2>Project Management</h2>
+                <p>Here's the solutiojn for those who want to worry about anything, leave it to the expert and let us take care of the workforce and technical management.</p>
+            </div>
+        </div>
+
+        <div class="home-card">
+            <img src="images/build.jpg" alt="">
+            <div class="card-content">
+                <h2>Build</h2>
+                <p>Our construction team is trained to perform any type of building work and service. Our goal is to carry out the works with safety, quality, budget and delivery time in mind.</p>
+            </div>
+        </div>
+</div>
+<div class="sec-ctn">
+    <a href="services.html"> Learn More</a>
+</div>
+</section>
+<div class="picture-divider"></div>
+
+<footer>
+   <p>Brgy. 8 San Antonio, Sarrat, Ilocos Norte, PH | Phone: 09163266783 | Email: econstruction.v01@gmail.com</p>
+   <footer>
+    <p>© Copyright 2023 ECO Construction | All Rights Reserved</p> 
+ </footer> 
+</footer>
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector ('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>

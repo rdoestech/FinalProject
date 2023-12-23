@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO About Us Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/logo.png" alt="" class="logo">
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+        <img src="/images/icons8-menu-100.png" alt="" class="menu-btn">
+    </nav>
+
+<!-- ==5th Slide== -->
+<div class="picture-divider"></div>
+
+<div class="cu-container">
+    <h2>CONTACT <b class="span">US</b></h2>
+
+    <div class="cu-content">
+        <form class="forms">
+            <p>Ready to build your new house or renovate your store?</p>  
+            <label>
+                <input required="" placeholder="Firstname:" type="text" class="input">
+             </label>
+        
+            <label>
+                <input required="" placeholder="Lastname:" type="text" class="input">
+            </label>
+                    
+            <label>
+                <input required="" placeholder="Email:" type="email" class="input">
+            </label> 
+                
+            <label>
+                <input required="" placeholder="Mobile:" type="tel" class="input">
+            </label>
+            
+            <label for="textarea" class="input"> 
+                <p>How Can We Help You?</p>
+                <textarea placeholder="Your message here:" id="textarea" rows="10" cols="50" required="" class="input"></textarea>
+                
+             </label>
+             <label for="button" class="input">
+             <button class="submit">Submit</button>
+            </label>
+        </form>
+
+        <div class="contacts">
+                <span class="material-symbols-outlined"> call </span>
+                    <div class="text">
+                        <h4>Call us:</h4>
+                        <p>09163266783</p>
+                    </div>
+
+                <span class="material-symbols-outlined"> Mail </span>
+                    <div class="text">
+                        <h4>Email:</h4>
+                        <p>econstruction.v01@gmail.com</p>
+                    </div>
+
+                <span class="material-symbols-outlined"> pin_drop </span>
+                    <div class="text">
+                        <h4>Address:</h4>
+                        <p>Brgy. 8 San Antonio, Sarrat, Ilocos Norte, Philippines 2914</p>
+                    </div>
+            </div>
+        </div>
+        
+</div>
+
+
+<div class="picture-divider"></div>
+
+         
+
+<footer>
+   <p>Brgy. 8 San Antonio, Sarrat, Ilocos Norte, PH | Phone: 09163266783 | Email: econstruction.v01@gmail.com</p>
+   <p>© Copyright 2023 ECO Construction | All Rights Reserved</p> 
+</footer>
+
+
+
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector ('.nav-links')
+
+    menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+    
+</body>
+</html>
