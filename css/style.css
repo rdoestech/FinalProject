@@ -79,7 +79,7 @@ li a:hover {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(/images/site.png);
+    background-image: url(/FinalProject/images/site.png);
     background-position: bottom;
     background-size: cover;
     display: flex;
